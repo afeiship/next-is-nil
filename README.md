@@ -1,12 +1,14 @@
 # next-is-nil
-> Is null/undefined for next
+> Is null/undefined for next.
 
-## install:
+## installation
 ```bash
-npm install -S afeiship/next-is-nil --registry=https://registry.npm.taobao.org
+npm install -S @feizheng/next-is-nil
 ```
 
-## usage:
+## usage
 ```js
+import '@feizheng/next-is-nil';
+
 //DOCS here!
 ```

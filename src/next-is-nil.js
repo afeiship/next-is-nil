@@ -1,10 +1,9 @@
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('next-js-core2');
+  var nx = global.nx || require('@feizheng/next-js-core2');
 
-  nx.isNil = function(inObj) {
-    // no:eqeqeq
-    return inObj == null;
+  nx.isNil = function (inTarget) {
+    return inTarget == null;
   };
 
   if (typeof module !== 'undefined' && module.exports) {
