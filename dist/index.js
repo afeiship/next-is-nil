@@ -3,7 +3,7 @@
  * description: Is null/undefined for next.
  * homepage: https://github.com/afeiship/next-is-nil
  * version: 1.0.0
- * date: 2020-11-21 09:50:06
+ * date: 2020-11-21 09:53:28
  * license: MIT
  */
 
