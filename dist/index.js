@@ -1,15 +1,15 @@
 /*!
- * name: @feizheng/next-is-nil
+ * name: @jswork/next-is-nil
  * description: Is null/undefined for next.
  * homepage: https://github.com/afeiship/next-is-nil
  * version: 1.0.0
- * date: 2020-06-12T00:51:52.083Z
+ * date: 2020-11-21 09:50:06
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
   nx.isNil = function (inTarget) {
     return inTarget == null;
@@ -19,5 +19,3 @@
     module.exports = nx.isNil;
   }
 })();
-
-//# sourceMappingURL=next-is-nil.js.map
